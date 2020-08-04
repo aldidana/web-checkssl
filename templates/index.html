@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block title %}Home{% endblock title %}
+{% block content %}
+    <div class="bg-white shadow p-4">
+        <form>
+            <input class="w-auto rounded p-2" type="text" name="domain" placeholder="Try 'rust-lang.org'">
+            <button type="submit" class="w-auto bg-blue-400 hover:bg-blue-300 rounded text-white p-2 pl-4 pr-4">
+                <p class="font-semibold text-xs">Check SSL</p>
+            </button>
+        </form>
+    </div>
+{% endblock content %}

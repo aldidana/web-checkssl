@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block title %}Error {% endblock title %}
+{% block content %}
+    <div class="p-4">
+        <div class="bg-red-200 border border-red-400 text-red-700 pl-4 pr-8 py-3 rounded relative" role="alert">
+            <strong class="font-bold">Error!</strong>
+            <span class="block sm:inline">{{ error }}</span>
+            <span class="absolute pin-t pin-b pin-r pr-2 py-3"></span>
+        </div>
+    </div>
+{% endblock content %}

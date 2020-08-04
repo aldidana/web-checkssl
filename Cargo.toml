@@ -1,0 +1,14 @@
+[package]
+name = "web-checkssl"
+version = "1.0.0"
+authors = ["Aldi Perdana <aldidana@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-web = "3.0.0-beta.1"
+actix-http = "2.0.0-beta.2"
+env_logger = "0.7"
+tera = "1.0"
+checkssl = "0.2.0"

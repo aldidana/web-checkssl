@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        {% block head %}
+            <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+            <title>{% block title %}{% endblock title %} - Checkssl</title>
+        {% endblock head %}
+    </head>
+    <body>
+        <div id="content" class="flex flex-col items-center justify-center">
+            <div class="p-4">
+                <a href="/"><p class="text-4xl">Checkssl</p></a>
+            </div>
+            {% block content %}
+            {% endblock content %}
+        </div>
+    </body>
+</html>
